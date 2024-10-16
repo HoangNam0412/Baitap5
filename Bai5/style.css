@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(236, 183, 183);
+    height: 500px;
+    width: 100%;
+
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+
+}
+img {
+    margin: 10px;
+}
+@media (max-width: 500px) {
+    .container{
+        flex-direction: column;
+        margin: 50px;
+
+    }
+}
